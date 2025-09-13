@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CseController {
 	@GetMapping("/home")
 	public String rocks() {
-		return "welcome";
+		return "welcome+dp";
 		
 	}
 
